@@ -64,7 +64,7 @@ class simpleJDBC extends Application
       {
         String createSQL = "CREATE TABLE " + tableName + " (id INTEGER, name VARCHAR (25)) ";
         System.out.println (createSQL ) ;
-        statement.executeUpdate (createSQL ) ;
+        statement.update (createSQL ) ;
         System.out.println ("DONE");
       }
       catch (SQLException e)
@@ -84,16 +84,16 @@ class simpleJDBC extends Application
       {
         String insertSQL = "INSERT INTO " + tableName + " VALUES ( 1 , \'Vicki\' ) " ;
         System.out.println ( insertSQL ) ;
-        statement.executeUpdate ( insertSQL ) ;
+        statement.update ( insertSQL ) ;
         System.out.println ( "DONE" ) ;
 
         insertSQL = "INSERT INTO " + tableName + " VALUES ( 2 , \'Vera\' ) " ;
         System.out.println ( insertSQL ) ;
-        statement.executeUpdate ( insertSQL ) ;
+        statement.update ( insertSQL ) ;
         System.out.println ( "DONE" ) ;
         insertSQL = "INSERT INTO " + tableName + " VALUES ( 3 , \'Franca\' ) " ;
         System.out.println ( insertSQL ) ;
-        statement.executeUpdate ( insertSQL ) ;
+        statement.update ( insertSQL ) ;
         System.out.println ( "DONE" ) ;
 
       }
@@ -116,7 +116,7 @@ class simpleJDBC extends Application
         {
           String querySQL = "SELECT id, name from " + tableName + " WHERE NAME = \'Vicki\'";
           System.out.println (querySQL) ;
-          java.sql.ResultSet rs = statement.executeQuery ( querySQL ) ;
+          java.sql.ResultSet rs = statement.query ( querySQL ) ;
 
           while ( rs.next ( ) )
           {
@@ -145,13 +145,13 @@ class simpleJDBC extends Application
         {
           String updateSQL = "UPDATE " + tableName + " SET NAME = \'Mimi\' WHERE id = 3";
           System.out.println(updateSQL);
-          statement.executeUpdate(updateSQL);
+          statement.update(updateSQL);
           System.out.println("DONE");
           
           // Dropping a table
           String dropSQL = "DROP TABLE " + tableName;
           System.out.println ( dropSQL ) ;
-          statement.executeUpdate ( dropSQL ) ;
+          statement.update ( dropSQL ) ;
           System.out.println ("DONE");
         }
         catch (SQLException e)
