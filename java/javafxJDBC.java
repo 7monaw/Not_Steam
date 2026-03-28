@@ -12,7 +12,6 @@ class simpleJDBC extends Application
     private Connection con;
     private Statement statement;
     private String tableName = "table";
-    String tableName = "";
     int sqlCode=0;      // Variable to hold SQLCODE
     String sqlState="00000";  // Variable to hold SQLSTATE
 
