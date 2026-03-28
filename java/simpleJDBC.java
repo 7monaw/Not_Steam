@@ -1,4 +1,4 @@
-import java.sql.* ;
+/*import java.sql.* ;
 import javafx.application.Application;
 import javafx.scene.control.Button;
 import javafx.scene.Scene;
@@ -119,7 +119,7 @@ class simpleJDBC extends Application
 
 
 
-/*
+
 
     public static void main ( String [ ] args ) throws SQLException
     {

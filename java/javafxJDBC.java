@@ -162,17 +162,19 @@ class simpleJDBC extends Application
           // something more meaningful than a print would be good
           System.out.println("Code: " + sqlCode + "  sqlState: " + sqlState);
           System.out.println(e);
-        }S
+        }
       }
       
 
       // Finally but importantly close the statement and connection
-      statement.close();
-      con.close();
-      super.stop();
+      @Override
+      public void stop() throws Exception {
+        statement.close();
+        con.close();
+        super.stop();
+      }
 
       public static void main(String[] args) {
         launch(args);
       }
-  }
-}
+    }
