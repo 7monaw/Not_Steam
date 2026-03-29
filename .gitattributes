@@ -1,1 +1,5 @@
-*.fxml linguist-language=XML
+*.fxml linguist-detectable=true
+*.fxml linguist-language=FXML
+
+# Ensure they aren't ignored if they are in resources/
+src/main/resources/**/*.fxml linguist-vendored=false
