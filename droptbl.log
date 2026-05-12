@@ -1,0 +1,72 @@
+CONNECT TO COMP421
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.9.0
+ SQL authorization ID   = CS421G07
+ Local database alias   = COMP421
+
+
+DROP TABLE IF EXISTS Available_In
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Requires
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Releases
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Contracts
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Associates
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS InterestedIn
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Wishes
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Buys
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Blocks
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Friend
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS SequelOf
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Location
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Publisher
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS GameDeveloper
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Achievement
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Award
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS SteamWallet
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Genre
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS System
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS Game
+DB20000I  The SQL command completed successfully.
+
+DROP TABLE IF EXISTS User
+DB20000I  The SQL command completed successfully.
+
