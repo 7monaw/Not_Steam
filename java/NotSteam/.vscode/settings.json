@@ -1,5 +1,21 @@
+<<<<<<< HEAD
 {
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": ["lib/**/*.jar"]
 }
+=======
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "files.exclude": {
+        "**/*.rpyc": true,
+        "**/*.rpa": true,
+        "**/*.rpymc": true,
+        "**/cache/": true
+    }
+}
+>>>>>>> cfa20b472dfeede0849e23a55b0672d88faa938f

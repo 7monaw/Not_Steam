@@ -5,6 +5,21 @@
 			"label": "build",
 			"type": "shell",
 			"command": "javac"
+<<<<<<< HEAD
+=======
+		},
+		{
+			"label": "build",
+			"type": "shell",
+			"command": "javac",
+			"args": [
+				"-cp",
+				"lib/javafx-sdk-24.0.1/lib/*",
+				"-d",
+				"bin",
+				"src/*.java"
+			]
+>>>>>>> cfa20b472dfeede0849e23a55b0672d88faa938f
 		}
 	]
 }
