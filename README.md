@@ -19,7 +19,7 @@ chmod +x runall.sh
 ./runall.sh
 ```
 
-1. Run UI:
+2. Run UI:
 ```bash
 cd UI
 java simpleJDBC.class
