@@ -341,6 +341,7 @@ import java.util.Arrays;
 
         try (PreparedStatement statement = con.prepareStatement(sql)) {
             statement.setString(1, username);
+            statement.executeUpdate();
         }
         catch (SQLException e) {
             System.err.println("Error fetching count: " + e.getMessage());
