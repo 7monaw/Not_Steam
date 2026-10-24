@@ -1,5 +1,7 @@
 *.fxml linguist-detectable=true
 *.fxml linguist-language=FXML
+*.sql linguist-detectable=true
+*.sql linguist-language=sql
 
 # Ensure they aren't ignored if they are in resources/
 src/main/resources/**/*.fxml linguist-vendored=false
